@@ -71,7 +71,7 @@ app.use(
 /* keepalive  begin */
 function keepalive() {
   // 1.请求主页，保持唤醒
-  let render_app_url = "https://hhhg-t56gf.onrender.com";
+  let render_app_url = "https://aw23vd-yug-v345vff.onrender.com";
   request(render_app_url, function (error, response, body) {
     if (!error) {
       console.log("主页发包成功！");
